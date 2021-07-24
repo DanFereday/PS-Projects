@@ -2,7 +2,7 @@
 
 
 
-Simple Network Troubleshooting Tool-
+Simple Network Troubleshooting Tool -
 
 
   A powershell function designed to assist help desk personnel in diagnosing network connectivity issues on 
@@ -15,7 +15,7 @@ Simple Network Troubleshooting Tool-
 
 
 
-Random Password Generator-
+Random Password Generator -
 
 
   Randomly generates 12 to 60-character passwords containing uppercase letters, lowercase letters, numbers,  
@@ -34,3 +34,13 @@ ServiceNow Auditing Tool -
   selects a designated percentage of those items, prints them to the screen, then allows the user to export them
   to a designated output file along with a timestamp.  Appends to the file if multiple exports are run on the
   same file.
+
+
+
+
+
+
+Rock Paper Scissors Coding Excercise - 
+
+
+  A simple terminal-based rock, paper, scissors game written in Powershell as a coding excercise.
