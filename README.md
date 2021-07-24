@@ -1,4 +1,4 @@
-# PS-Projects
+# Powershell Projects and Excercises
 
 
 
