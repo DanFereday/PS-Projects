@@ -1,46 +1,11 @@
 # Powershell Projects and Excercises
 
+CONTENTS:
 
+Simple Network Troubleshooting Tool -  A basic script designed to assist service desk personnel by allowing end users to run basic network troubleshooting commands through an easy-to-use interface.  
 
-Simple Network Troubleshooting Tool -
-
-
-  A powershell function designed to assist help desk personnel in diagnosing network connectivity issues on 
-  end user machines by proving the users with an easy-to-use menu system for running common commands.
-  Recommended use - install this function in the powershell profile of your organization's production
-  Windows image in order to allow end users to call it from Powershell with no installation.
-
-
-
-
-
-
-Random Password Generator -
-
-
-  Randomly generates 12 to 60-character passwords containing uppercase letters, lowercase letters, numbers,  
-  and special characters.  Creates a unique salt for every password randomization to reduce the liklihood of
-  the same pasword being generated more than once.
+Random Password Generator - Generates a random password containing numbers, letters, and special characters between 12-60 characters in length.
   
-  
-  
-  
-  
+ServiceNow Auditing Tool - A tool that accepts input from a ServiceNow CSV export, isolates one of the columns (example:  ticket numbers), randomly selects a specified percentage of those items, and then outputs them to the screen.  Also allows export to an external log file.
 
-ServiceNow Auditing Tool - 
-
-
-  Accepts a .csv export of a ServiceNow report, isolates the contents of a specified column of the CSV, randomly
-  selects a designated percentage of those items, prints them to the screen, then allows the user to export them
-  to a designated output file along with a timestamp.  Appends to the file if multiple exports are run on the
-  same file.
-
-
-
-
-
-
-Rock Paper Scissors Coding Excercise - 
-
-
-  A simple terminal-based rock, paper, scissors game written in Powershell as a coding excercise.
+Rock Paper Scissors Coding Excercise - A simple terminal-based rock, paper, scissors game.
