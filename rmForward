@@ -27,7 +27,7 @@ function rmForward {
     Write-Host "Current Mailbox Forwarding Destinations for"$targetMailbox":"
     get-mailbox $targetMailbox | FL Forward*
     Write-host ""
-    Write-Host ""
+    Write-Host "" 
     $loopActive = $true
 
     # Infinite loop to force user to choose either yes or no at user selection prompt.
