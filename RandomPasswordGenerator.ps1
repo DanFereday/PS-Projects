@@ -49,6 +49,7 @@ function rpg {
      
      # Print password to screen, pause before clearing to allow users to record the password before clearing it.
      write-host "Randomly Generated Password:  " $outputPassword
+     $outputPassword | clip.exe
      write-host ""
      $gameOver = Read-Host "Would you like to generate another password? (Y/N)"
           switch($gameOver){
